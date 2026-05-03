@@ -779,11 +779,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
+      "projectPath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-      "outputPath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\obj\\",
+      "outputPath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -798,11 +798,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Domain\\Domain.csproj"
+            "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Domain\\Domain.csproj"
             },
-            "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj"
+            "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "twMdU22PyG0=",
+  "dgSpecHash": "1y65w4/ZPDI=",
   "success": true,
-  "projectFilePath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jorge\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\Jorge\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

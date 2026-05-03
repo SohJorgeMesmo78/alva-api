@@ -135,3 +135,4 @@ d:\HD\Projetos\Alva\alva-api\src\WebApi\obj\Debug\net10.0\refint\WebApi.dll
 d:\HD\Projetos\Alva\alva-api\src\WebApi\obj\Debug\net10.0\WebApi.pdb
 d:\HD\Projetos\Alva\alva-api\src\WebApi\obj\Debug\net10.0\WebApi.genruntimeconfig.cache
 d:\HD\Projetos\Alva\alva-api\src\WebApi\obj\Debug\net10.0\ref\WebApi.dll
+D:\HD\Projetos\Alva\alva-api\src\WebApi\obj\Debug\net10.0\WebApi.sourcelink.json

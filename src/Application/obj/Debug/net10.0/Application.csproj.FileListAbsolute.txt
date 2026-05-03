@@ -15,3 +15,4 @@ d:\HD\Projetos\Alva\alva-api\src\Application\obj\Debug\net10.0\Application.dll
 d:\HD\Projetos\Alva\alva-api\src\Application\obj\Debug\net10.0\refint\Application.dll
 d:\HD\Projetos\Alva\alva-api\src\Application\obj\Debug\net10.0\Application.pdb
 d:\HD\Projetos\Alva\alva-api\src\Application\obj\Debug\net10.0\ref\Application.dll
+D:\HD\Projetos\Alva\alva-api\src\Application\obj\Debug\net10.0\Application.sourcelink.json

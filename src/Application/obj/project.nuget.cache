@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "07FRPUh2l1c=",
+  "dgSpecHash": "c2gFATwjoxo=",
   "success": true,
-  "projectFilePath": "d:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
+  "projectFilePath": "D:\\HD\\Projetos\\Alva\\alva-api\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jorge\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
