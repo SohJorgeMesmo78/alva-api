@@ -1,0 +1,27 @@
+# Build e Output
+bin/
+obj/
+out/
+
+# Visual Studio / VS Code / IDEs
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# JetBrains Rider
+.idea/
+
+# EF Core / Local Database
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db

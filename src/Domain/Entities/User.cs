@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Domain.Entities
 {
@@ -11,5 +12,8 @@ namespace Domain.Entities
         
         // Navigation property for 1:1 relationship
         public UserSettings Settings { get; set; } = null!;
+
+        // Relation 1:N with Tasks
+        public ICollection<TaskItem> Tasks { get; set; } = new List<TaskItem>();
     }
 }

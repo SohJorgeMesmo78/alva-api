@@ -12,6 +12,8 @@ namespace Infrastructure.Data
 
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<UserSettings> UserSettings { get; set; } = null!;
+        public DbSet<TaskType> TaskTypes { get; set; } = null!;
+        public DbSet<TaskItem> Tasks { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,6 +33,19 @@ namespace Infrastructure.Data
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Username)
                 .IsUnique();
+
+            // Task Relations
+            modelBuilder.Entity<TaskItem>()
+                .HasOne(t => t.User)
+                .WithMany(u => u.Tasks)
+                .HasForeignKey(t => t.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<TaskItem>()
+                .HasOne(t => t.TaskType)
+                .WithMany(type => type.Tasks)
+                .HasForeignKey(t => t.TaskTypeId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Seed Data
             var userId = Guid.Parse("11111111-1111-1111-1111-111111111111");
@@ -59,6 +74,17 @@ namespace Infrastructure.Data
                 NotificationsEnabled = true,
                 SoundEnabled = true
             });
+
+            // Seed TaskTypes
+            var appointmentTypeId = Guid.Parse("33333333-3333-3333-3333-333333333333");
+            var habitTypeId = Guid.Parse("44444444-4444-4444-4444-444444444444");
+            var deadlineGoalTypeId = Guid.Parse("55555555-5555-5555-5555-555555555555");
+
+            modelBuilder.Entity<TaskType>().HasData(
+                new TaskType { Id = appointmentTypeId, Name = "appointment", Description = "Compromisso com data e hora" },
+                new TaskType { Id = habitTypeId, Name = "habit", Description = "Hábito ou Rotina" },
+                new TaskType { Id = deadlineGoalTypeId, Name = "deadline_goal", Description = "Meta com prazo" }
+            );
         }
     }
 }
