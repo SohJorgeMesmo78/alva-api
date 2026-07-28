@@ -8,7 +8,13 @@ namespace WebApi.Models
         public string Name { get; set; } = string.Empty;
         public string? Description { get; set; }
         public string? Location { get; set; }
-        public DateTime ScheduledFor { get; set; } // This is Date + Time from frontend
+        public DateTime ScheduledFor { get; set; }
+        
+        // Extended fields for Habit & Goal
+        public DateTime? StartDate { get; set; }
+        public DateTime? Deadline { get; set; }
+        public int? TargetVolume { get; set; }
+        public string? Unit { get; set; }
     }
 
     public class TaskItemDto
